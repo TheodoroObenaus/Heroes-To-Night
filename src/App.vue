@@ -29,7 +29,7 @@ const mostrar = ref(true)
         <button class="btn btn-primary" @click="contador1++">
           +
         </button>
-      </div>
+      
       <div>
         <button class="btn btn-primary" @click="contador2--">
           -
@@ -60,6 +60,7 @@ const mostrar = ref(true)
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <style scoped>
